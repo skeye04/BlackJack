@@ -1,0 +1,53 @@
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+body{
+    background-image: url(table.jpg);
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#message-el{
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    background: goldenrod;
+    border: none;
+    border-radius: 10px;
+}
+#playingcards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#playingcards img{
+    margin-left: 20px;
+    height: 200px;
+}
+@media(max-width: 768px){
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #playingcards {
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #playingcards img{
+        margin-left: 20px;
+        height: 400px;
+    }
+}
